@@ -1,0 +1,21 @@
+body {
+  font-family: arial;
+  padding: 3rem;
+}
+main {
+  display: flex;
+}
+main > * {
+  flex: 1;
+}
+.selected {
+  background-color: #348aa7;
+}
+.selected a {
+  color: cornsilk;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
